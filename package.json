@@ -1,0 +1,36 @@
+{
+  "name": "frai-chat",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FRAI Chat — a Responsible-AI copilot grounded in the EU AI Act, NIST AI RMF, and FRAI methodology. Runs in the browser, BYOK, deployed on GitHub Pages.",
+  "scripts": {
+    "ingest": "tsx scripts/ingest.ts",
+    "dev": "next dev",
+    "build": "npm run ingest && next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.3.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^9.0.3",
+    "remark-gfm": "^4.0.0",
+    "zustand": "^5.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.0",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

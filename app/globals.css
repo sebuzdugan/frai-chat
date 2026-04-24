@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f6f1;
+  --foreground: #141712;
+  --accent: #126b45;
+  --warn: #d79b21;
+  --danger: #c84630;
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif);
+}
+
+.prose-compact {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+.prose-compact p {
+  margin: 0 0 0.6em;
+}
+.prose-compact ul,
+.prose-compact ol {
+  margin: 0 0 0.6em 1.1em;
+}
+.prose-compact ul {
+  list-style: disc;
+}
+.prose-compact ol {
+  list-style: decimal;
+}
+.prose-compact code {
+  background: #eef2e7;
+  padding: 0 4px;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+.prose-compact pre {
+  background: #141712;
+  color: #f4f6f1;
+  padding: 10px 12px;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.82em;
+  margin: 0.6em 0;
+}
+.prose-compact a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+.prose-compact h2,
+.prose-compact h3 {
+  font-weight: 800;
+  margin: 1em 0 0.4em;
+}
+
+.citation-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 4px;
+  border-radius: 4px;
+  background: #141712;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 800;
+  margin: 0 2px;
+  vertical-align: baseline;
+  cursor: help;
+}

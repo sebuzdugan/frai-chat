@@ -1,0 +1,34 @@
+[
+  {
+    "id": "eu-ai-act",
+    "title": "EU AI Act",
+    "file": "eu-ai-act.md",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+    "description": "Regulation (EU) 2024/1689 — The Artificial Intelligence Act.",
+    "license": "© European Union — Public document"
+  },
+  {
+    "id": "nist-ai-rmf",
+    "title": "NIST AI Risk Management Framework 1.0",
+    "file": "nist-ai-rmf.md",
+    "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+    "description": "Voluntary framework for trustworthy AI, published by NIST.",
+    "license": "US Government Work — Public domain"
+  },
+  {
+    "id": "iso-42001",
+    "title": "ISO/IEC 42001:2023",
+    "file": "iso-42001.md",
+    "url": "https://www.iso.org/standard/81230.html",
+    "description": "AI management system standard. (Paywalled; this file contains a free summary only.)",
+    "license": "Summary reference only — full standard available from ISO."
+  },
+  {
+    "id": "frai-methodology",
+    "title": "FRAI Methodology",
+    "file": "frai-methodology.md",
+    "url": "https://github.com/sebastian-rfai/frai",
+    "description": "FRAI's Responsible-AI methodology: model cards, risk files, and evidence-gathering workflows.",
+    "license": "Apache 2.0"
+  }
+]

@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+.env
+.env.local
+.DS_Store
+*.log
+public/index/chunks.json
+public/index/embeddings.bin
+public/index/manifest.json
