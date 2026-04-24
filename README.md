@@ -3,9 +3,13 @@
 **Responsible-AI copilot, grounded in the EU AI Act, NIST AI RMF, ISO/IEC 42001,
 and the FRAI methodology. Runs entirely in your browser. Deploys to GitHub Pages for free.**
 
+> Live at: **https://sebuzdugan.github.io/frai-chat/**
+>
 > Part of the FRAI family — works alongside the
-> [`frai`](https://github.com/sebastian-rfai/frai) CLI/SDK and the
-> [`frai-benchmark`](https://github.com/sebastian-rfai/frai-benchmark) leaderboard.
+> [`frai`](https://github.com/sebuzdugan/frai) CLI/SDK and the
+> [`frai-benchmark`](https://github.com/sebuzdugan/frai-benchmark) leaderboard.
+
+![FRAI Chat — four modes: Q&A, EU AI Act tier classifier, model-card drafter, risk-file drafter, with browser-side BYOK.](assets/readme_app_screenshot.png)
 
 ## Why this isn't just "ChatGPT with an uploaded PDF"
 
@@ -62,7 +66,7 @@ conversationally and download them ready for reviewers.
 ## Getting started
 
 ```bash
-git clone https://github.com/sebastian-rfai/frai-chat
+git clone https://github.com/sebuzdugan/frai-chat
 cd frai-chat
 npm install
 npm run ingest    # builds public/index/ from corpus/
