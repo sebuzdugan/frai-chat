@@ -1,5 +1,7 @@
 # FRAI Chat
 
+> Part of [FRAI](https://github.com/sebuzdugan/frai). This project is maintained as a reference and is not under active development. Active work happens in the main repo.
+
 **Responsible-AI copilot, grounded in the EU AI Act, NIST AI RMF, ISO/IEC 42001,
 and the FRAI methodology. Runs entirely in your browser. Deploys to GitHub Pages for free.**
 
