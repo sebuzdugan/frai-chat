@@ -1,0 +1,25 @@
+lib/llm/index.ts
+  s_ba30fff77c85e6::t_39c6f4ac2d0907 7-8,10
+corpus/eu-ai-act-applicability-2026.md
+  s_ba30fff77c85e6::t_b9f63db19d054b 1-62
+app/page.tsx
+  ai_agent 12
+corpus/sources.json
+  s_ba30fff77c85e6::t_0a059a3c100cd2 7-16,24,32,38,42
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "fc4b8942fdcff0ba64f4ec22ffe4066a5cd81abb",
+  "prompts": {},
+  "sessions": {
+    "s_ba30fff77c85e6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "aa476d27-5697-42ad-89e4-0945c44ac8ff",
+        "model": "claude-opus-5"
+      },
+      "human_author": "sebastianbuzdugan <81054605+sebastianbuzdugan@users.noreply.github.com>"
+    }
+  }
+}
