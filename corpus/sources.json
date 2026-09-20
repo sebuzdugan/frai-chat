@@ -4,8 +4,16 @@
     "title": "EU AI Act",
     "file": "eu-ai-act.md",
     "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
-    "description": "Regulation (EU) 2024/1689 — The Artificial Intelligence Act.",
-    "license": "© European Union — Public document"
+    "description": "Regulation (EU) 2024/1689 \u2014 The Artificial Intelligence Act.",
+    "license": "\u00a9 European Union \u2014 Public document"
+  },
+  {
+    "id": "eu-ai-act-applicability-2026",
+    "title": "EU AI Act \u2014 what applies when (2026)",
+    "file": "eu-ai-act-applicability-2026.md",
+    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202401689",
+    "description": "Application dates in Article 113, the Digital Omnibus changes (Regulation (EU) 2026/1744), Article 50 in practice, and the penalty bands in Article 99.",
+    "license": "\u00a9 European Union \u2014 Public document; summary by FRAI"
   },
   {
     "id": "nist-ai-rmf",
@@ -13,7 +21,7 @@
     "file": "nist-ai-rmf.md",
     "url": "https://www.nist.gov/itl/ai-risk-management-framework",
     "description": "Voluntary framework for trustworthy AI, published by NIST.",
-    "license": "US Government Work — Public domain"
+    "license": "US Government Work \u2014 Public domain"
   },
   {
     "id": "iso-42001",
@@ -21,13 +29,13 @@
     "file": "iso-42001.md",
     "url": "https://www.iso.org/standard/81230.html",
     "description": "AI management system standard. (Paywalled; this file contains a free summary only.)",
-    "license": "Summary reference only — full standard available from ISO."
+    "license": "Summary reference only \u2014 full standard available from ISO."
   },
   {
     "id": "frai-methodology",
     "title": "FRAI Methodology",
     "file": "frai-methodology.md",
-    "url": "https://github.com/sebastian-rfai/frai",
+    "url": "https://github.com/sebuzdugan/frai",
     "description": "FRAI's Responsible-AI methodology: model cards, risk files, and evidence-gathering workflows.",
     "license": "Apache 2.0"
   }

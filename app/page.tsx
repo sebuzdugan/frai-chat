@@ -9,7 +9,7 @@ import { clearProvider, loadStoredProvider, saveProvider, useChat } from "@/lib/
 
 const REPO_URL =
   process.env.NEXT_PUBLIC_REPO_URL ||
-  "https://github.com/sebastian-rfai/frai-chat";
+  "https://github.com/sebuzdugan/frai-chat";
 
 export default function Page() {
   const { mode, settings, setMode, setProvider } = useChat();
